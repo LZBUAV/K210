@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="400"
+   viewBox="0 0 211.66667 105.83334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="installer_background_mac.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.69999999"
+     inkscape:cx="-76.990437"
+     inkscape:cy="35.955042"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.135169,-83.786962)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="60.93745"
+       y="-33.345135"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="60.93745"
+         y="-23.981365"
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g939"
+       transform="matrix(0.20286165,0,0,0.20286165,29.78644,86.702849)">
+      <g
+         id="g846">
+        <path
+           id="path832"
+           d="M 59.2,64 H 16.6 c -3.4,0 -6.1,-2.7 -6.1,-6.1 V 15.3 c 0,-3.4 2.7,-6.1 6.1,-6.1 h 42.6 c 3.4,0 6.1,2.7 6.1,6.1 V 57.9 C 65.2,61.2 62.5,64 59.2,64 Z"
+           class="st0"
+           inkscape:connector-curvature="0"
+           style="fill:#9b2129" />
+        <g
+           id="g836">
+          <path
+             id="path834"
+             d="M 58.8,9.2 H 16.9 c -3.5,0 -6.4,2.9 -6.4,6.4 v 41.9 c 0,3.5 2.9,6.4 6.4,6.4 h 41.9 c 3.5,0 6.4,-2.9 6.4,-6.4 V 15.6 c 0,-3.5 -2.9,-6.4 -6.4,-6.4 z m 3.4,48.3 c 0,1.9 -1.5,3.4 -3.4,3.4 H 16.9 c -1.9,0 -3.4,-1.5 -3.4,-3.4 V 15.6 c 0,-1.9 1.5,-3.4 3.4,-3.4 h 41.9 c 1.9,0 3.4,1.5 3.4,3.4 z"
+             class="st0"
+             inkscape:connector-curvature="0"
+             style="fill:#9b2129" />
+        </g>
+        <g
+           id="g840">
+          <polygon
+             id="polygon838"
+             points="42.9,32.4 28.4,32.4 28.4,23.8 51.5,23.8 51.5,15.4 32.7,15.4 20.1,28.1 32.7,40.8 47.3,40.8 47.3,49.4 24.2,49.4 24.2,57.7 43,57.7 55.6,45.1 55.7,45.1 55.7,45 55.6,45.1 "
+             class="st1"
+             style="fill:#ffffff" />
+        </g>
+        <g
+           id="g844">
+          <path
+             id="path842"
+             d="m 23.9,18.3 c 0,-2.1 -1.7,-3.9 -3.9,-3.9 -2.1,0 -3.9,1.7 -3.9,3.9 0,2.1 1.7,3.9 3.9,3.9 2.2,0 3.9,-1.8 3.9,-3.9 z m -5.7,0 c 0,-1 0.8,-1.9 1.9,-1.9 1,0 1.9,0.8 1.9,1.9 0,1.1 -0.8,1.9 -1.9,1.9 -1.1,0 -1.9,-0.9 -1.9,-1.9 z"
+             class="st1"
+             inkscape:connector-curvature="0"
+             style="fill:#ffffff" />
+        </g>
+      </g>
+      <g
+         id="g896">
+        <g
+           id="g850">
+          <polygon
+             id="polygon848"
+             points="97.5,51.2 97.5,60.7 118.9,60.7 133.4,46.3 133.4,46.2 133.3,46.3 118.8,31.8 102.2,31.8 102.2,22 128.6,22 128.6,12.4 107.2,12.4 92.7,26.9 92.7,26.8 92.7,26.9 107.2,41.3 123.9,41.3 123.9,51.2 "
+             class="st0"
+             style="fill:#9b2129" />
+        </g>
+        <g
+           id="g854">
+          <polygon
+             id="polygon852"
+             points="159.1,26.7 159.1,60.7 168.6,60.7 168.6,22 190.3,22 190.3,31.8 171,31.8 171,41.3 185.5,41.3 199.8,27 199.8,26.7 185.5,12.4 173.4,12.4 "
+             class="st0"
+             style="fill:#9b2129" />
+        </g>
+        <g
+           id="g864">
+          <g
+             id="g858">
+            <rect
+               id="rect856"
+               height="9.5"
+               width="24"
+               class="st0"
+               y="31.799999"
+               x="218"
+               style="fill:#9b2129" />
+          </g>
+          <g
+             id="g862">
+            <polygon
+               id="polygon860"
+               points="220.5,12.4 206.1,26.8 206.1,46.3 220.5,60.7 242.1,60.7 242.1,51.2 215.7,51.2 215.7,22 242.1,22 242.1,12.4 "
+               class="st0"
+               style="fill:#9b2129" />
+          </g>
+        </g>
+        <g
+           id="g874">
+          <g
+             id="g868">
+            <rect
+               id="rect866"
+               height="9.5"
+               width="24"
+               class="st0"
+               y="31.799999"
+               x="263.5"
+               style="fill:#9b2129" />
+          </g>
+          <g
+             id="g872">
+            <polygon
+               id="polygon870"
+               points="266,12.4 251.6,26.8 251.6,46.3 266,60.7 287.5,60.7 287.5,51.2 261.1,51.2 261.1,21.9 287.5,21.9 287.5,12.4 "
+               class="st0"
+               style="fill:#9b2129" />
+          </g>
+        </g>
+        <g
+           id="g884">
+          <g
+             id="g878">
+            <rect
+               id="rect876"
+               height="48.299999"
+               width="9.5"
+               class="st0"
+               y="12.4"
+               x="297"
+               style="fill:#9b2129" />
+          </g>
+          <g
+             id="g882">
+            <polygon
+               id="polygon880"
+               points="323.7,12.4 308.9,12.4 308.9,21.9 328.2,21.9 328.2,51.2 308.9,51.2 308.9,60.7 323.7,60.7 337.7,46.7 337.7,26.4 "
+               class="st0"
+               style="fill:#9b2129" />
+          </g>
+        </g>
+        <g
+           id="g894">
+          <g
+             id="g888">
+            <rect
+               id="rect886"
+               height="9.5"
+               width="9.5"
+               class="st0"
+               y="12.4"
+               x="140"
+               style="fill:#9b2129" />
+          </g>
+          <g
+             id="g892">
+            <rect
+               id="rect890"
+               height="28.9"
+               width="9.5"
+               class="st0"
+               y="31.799999"
+               x="140"
+               style="fill:#9b2129" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:0.3,0.3;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m 147.36145,140.67224 q 0,0.2455 -0.22231,0.42084 l -8.53646,6.20742 q -0.35569,0.2455 -0.77806,0.10527 -0.42238,-0.15782 -0.42238,-0.50851 v -3.92786 h -27.74348 q -0.31123,0 -0.5113,-0.15782 -0.20007,-0.15781 -0.20007,-0.4033 v -3.36674 q 0,-0.24549 0.20007,-0.4033 0.20007,-0.15782 0.5113,-0.15782 h 27.74348 v -3.92784 q 0,-0.36825 0.42238,-0.50852 0.42237,-0.14029 0.77806,0.0877 l 8.53646,6.13727 q 0.22231,0.17535 0.22231,0.4033 z"
+       p-id="2299"
+       id="path906" />
+  </g>
+  <style
+     id="style830"
+     type="text/css">
+	.st0{fill:#9B2129;}
+	.st1{fill:#FFFFFF;}
+</style>
+</svg>
