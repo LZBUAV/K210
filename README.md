@@ -1,4 +1,9 @@
 # 中文
+# 1.作者简介
+* 项目参与人与仓库维护者：李展博，北京航空航天大学自动化科学与电气工程学院硕士研究生
+* 项目负责人：李大伟，北京航空航天大学无人系统研究院研究员(副教授)
+* 项目负责人：杨炯，北京航空航天大学无人系统研究院工程师
+* 联系方式：lizhanbo@buaa.edu.cn
 # 项目描述  
 >在第一次尝试之前，您应该仔细阅读此README.md和用户手册。
 
@@ -18,10 +23,34 @@
 # 实现功能
 该项目是Kendryte K210 AI芯片应用程序的集合，其中包括面部检测，颜色检测，目标检测和分类，QR码和Apriltag码检测以及与ArduPilot飞行软件的通信。 最后，我们可以将这些应用程序部署到无人机终端，使无人机更加智能。所实现的应用主要分为两类，第一个是机器视觉应用，该类应用基于openmv机器视觉库；第二类是深度学习应用，该类主要基于Tensorflow和yolov2。详细功能参见用户手册。部分应用展示如下：
 - QR码检测：
+<div align="center">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
+         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+      </video>
+</div>
 
 - AprilTag代码检测：
+<div align="center">
+<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag1.jpg" width = "300" height = "300" alt="K210" />
+<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
+</div>
 
 - 人体检测
+<div align="center">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
+      </video>
+
+<img src="https://github.com/LZBUAV/K210/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+<img src="https://github.com/LZBUAV/K210/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+</div>
+
+- 基于K210的视觉追踪无人机
+<div align="center">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
+      </video>
+</div>
 
 # English
 # Project description  
@@ -32,7 +61,31 @@ This K210 project is a supporting project of the Vision_MAV project. The Vision_
 # Project files structure  
 This project is a collection of Kendryte K210 AI chip applications, which includes face detection, color detection, object detection and classification, QR code and Apriltag code detection, and the interface to communication with ArduPilot flight software. Finally, we can deploy these applications to drone to make drones more intelligent. These implemented applications are mainly divided into two categories, the first is machine vision applications, which are based on the openmv machine vision library; the second is deep learning applications, which are mainly based on Tensorflow and yolov2. See the user's manual for detailed functions. Some applications are shown below:
 - QR code detection:
+<div align="center">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
+         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+      </video>
+</div>
 
 - AprilTag code detection:
+<div align="center">
+<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag1.jpg" width = "300" height = "300" alt="K210" />
+<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
+</div>
 
 - Human body detection
+<div align="center">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
+      </video>
+
+<img src="https://github.com/LZBUAV/K210/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+<img src="https://github.com/LZBUAV/K210/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+</div>
+
+- vision based UAV
+<div align="center">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
+      </video>
+</div>
