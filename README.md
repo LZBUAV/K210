@@ -5,7 +5,7 @@
 * 项目负责人：杨炯，北京航空航天大学无人系统研究院工程师
 * 联系方式：lizhanbo@buaa.edu.cn
 # 项目描述  
->在第一次尝试之前，您应该仔细阅读此README.md和用户手册。
+>在第一次尝试之前，您应该仔细阅读此README.md和[用户手册](https://github.com/LZBUAV/K210/tree/master/user's_manaul_en_zh/ "用户手册")。
 
 该项目是Kendryte K210 AI芯片应用程序的集合，其中包括面部检测，颜色检测，目标检测和分类，QR码和Apriltag码检测以及与ArduPilot飞行软件的通信。 最后，我们可以将这些应用程序部署到无人机终端，使无人机更加智能。
 本K210项目为Vision_MAV项目的配套项目，Vision_MAV项目旨在设计并实现一个依托深度学习和图像处理技术的基于视觉的微型无人机系统，能够实现在无GPS环境下的自主视觉导航、目标检测与追踪，该项目由北航无人系统研究院李大伟副教授课题组创立并进行研究，并将在项目没有保密需求后进行开源。本仓库的K210项目是Vision_MAV的一个配套项目，基于[嘉楠科技公司](https://canaan-creative.com/ "嘉楠科技公司")生产的边缘AI芯片[K210](https://canaan-creative.com/product/kendryteai "K210")，来实现目标检测与追踪，为Vision_MAV项目提供一个可选的视觉解决方案。该项目采用了一块[矽速科技公司](https://www.sipeed.com/ "矽速科技公司")生产的MAXI DOCK K210评估板，来验证K210芯片的AI计算能力。在本项目中，采用传统机器视觉方法实现了最大色块识别、二维码识别、Apriltag码识别、圆形识别，采用深度学习方法实现了人脸识别、人体识别、口罩识别等，并开发了K210和[Ardupilot](https://github.com/ArduPilot/ardupilot "Ardupilot")飞控固件之间的[MAVlink](https://github.com/ArduPilot/mavlink "MAVlink")通讯接口，来实时的将K210视觉模组解算出的目标位置信息发送给飞控来控制无人机运动。
@@ -22,10 +22,11 @@
 
 # 实现功能
 该项目是Kendryte K210 AI芯片应用程序的集合，其中包括面部检测，颜色检测，目标检测和分类，QR码和Apriltag码检测以及与ArduPilot飞行软件的通信。 最后，我们可以将这些应用程序部署到无人机终端，使无人机更加智能。所实现的应用主要分为两类，第一个是机器视觉应用，该类应用基于openmv机器视觉库；第二类是深度学习应用，该类主要基于Tensorflow和yolov2。详细功能参见用户手册。部分应用展示如下：
-- QR码检测：
+- [QR码检测视频](https://github.com/LZBUAV/K210/blob/master/images/QRcode.mov "QR码检测视频")：
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+      <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
 
@@ -35,7 +36,7 @@
 <img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
 </div>
 
-- 人体检测
+- [人体检测视频](https://github.com/LZBUAV/K210/blob/master/images/human.mov "人体检测视频")
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
@@ -45,7 +46,7 @@
 <img src="https://github.com/LZBUAV/K210/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
 </div>
 
-- 基于K210的视觉追踪无人机
+- [基于K210的视觉追踪无人机视频](https://github.com/LZBUAV/K210/blob/master/images/UAV.mp4 "基于K210的视觉追踪无人机视频")
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
@@ -60,7 +61,7 @@ This repository is a collection of applications for the Kendryte K210 AI chip wh
 This K210 project is a supporting project of the Vision_MAV project. The Vision_MAV project aims to design and implement a vision-based micro drone system that relies on deep learning and image processing technology, which can realize autonomous visual navigation, target detection and Tracking, the project was founded and researched by the team of Associate Professor Li Dawei who works at the Institute of Unmanned System, Beihang University. And this project will be open source after the project has no confidentiality requirements. The K210 project is a supporting project of Vision_MAV, based on the edge AI chip [K210](https://canaan-creative.com/product/kendryteai "K210"), to achieve target detection and tracking, and to provide an optional vision solution for the Vision_MAV project. We used a MAXI DOCK K210 evaluation board produced by [Sipeed Technology Company](https://www.sipeed.com/ "矽速科技公司") to verify the AI ​​computing capabilities of the K210 chip. In this project, traditional machine vision methods are used to realize the largest color block recognition, QR code recognition, Apriltag code recognition, and circle recognition. Deep learning methods are used to realize face recognition, human body recognition, mask recognition, etc, and we also developed a [MAVlink](https://github.com/ArduPilot/mavlink "MAVlink") communication interface between K210 and [Ardupilot](https://github.com/ArduPilot/ardupilot "Ardupilot") flight control firmware, then The target position information calculated by the K210 vision module is sent to the flight controller in real time to control the movement of the drone.
 # Project files structure  
 This project is a collection of Kendryte K210 AI chip applications, which includes face detection, color detection, object detection and classification, QR code and Apriltag code detection, and the interface to communication with ArduPilot flight software. Finally, we can deploy these applications to drone to make drones more intelligent. These implemented applications are mainly divided into two categories, the first is machine vision applications, which are based on the openmv machine vision library; the second is deep learning applications, which are mainly based on Tensorflow and yolov2. See the user's manual for detailed functions. Some applications are shown below:
-- QR code detection:
+- [Vedio of QR code detection](https://github.com/LZBUAV/K210/blob/master/images/QRcode.mov "Vedio of QR code detection"):
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
@@ -73,7 +74,7 @@ This project is a collection of Kendryte K210 AI chip applications, which includ
 <img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
 </div>
 
-- Human body detection
+- [Vedio fo human body detection](https://github.com/LZBUAV/K210/blob/master/images/human.mov "Vedio fo human body detection")
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
@@ -83,7 +84,7 @@ This project is a collection of Kendryte K210 AI chip applications, which includ
 <img src="https://github.com/LZBUAV/K210/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
 </div>
 
-- vision based UAV
+- [Vedio of vision based UAV](https://github.com/LZBUAV/K210/blob/master/images/UAV.mp4 "Vedio of vision based UAV")
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
