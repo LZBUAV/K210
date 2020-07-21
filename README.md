@@ -40,6 +40,7 @@
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
+         <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 
 <img src="https://github.com/LZBUAV/K210/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
@@ -50,6 +51,7 @@
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
+         <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
 
@@ -65,6 +67,7 @@ This project is a collection of Kendryte K210 AI chip applications, which includ
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+         <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
 
@@ -74,10 +77,11 @@ This project is a collection of Kendryte K210 AI chip applications, which includ
 <img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
 </div>
 
-- [Vedio fo human body detection](https://github.com/LZBUAV/K210/blob/master/images/human.mov "Vedio fo human body detection")
+- [Vedio of human body detection](https://github.com/LZBUAV/K210/blob/master/images/human.mov "Vedio fo human body detection")
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
+         <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 
 <img src="https://github.com/LZBUAV/K210/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
@@ -88,5 +92,6 @@ This project is a collection of Kendryte K210 AI chip applications, which includ
 <div align="center">
 <video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
          <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
+         <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
