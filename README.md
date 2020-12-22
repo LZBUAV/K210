@@ -24,33 +24,33 @@
 该项目是Kendryte K210 AI芯片应用程序的集合，其中包括面部检测，颜色检测，目标检测和分类，QR码和Apriltag码检测以及与ArduPilot飞行软件的通信。 最后，我们可以将这些应用程序部署到无人机终端，使无人机更加智能。所实现的应用主要分为两类，第一个是机器视觉应用，该类应用基于openmv机器视觉库；第二类是深度学习应用，该类主要基于Tensorflow和yolov2。详细功能参见用户手册。部分应用展示如下：
 - [QR码检测视频](https://github.com/LZBUAV/K210/blob/master/images/QRcode.mov "QR码检测视频")：
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
-         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/QRcode_cover.jpg"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
       <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
 
-- AprilTag代码检测：
+- AprilTag码检测：
 <div align="center">
-<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag1.jpg" width = "300" height = "300" alt="K210" />
-<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/Apriltag1.jpg" width = "300" height = "300" alt="K210" />
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
 </div>
 
-- [人体检测视频](https://github.com/LZBUAV/K210/blob/master/images/human.mov "人体检测视频")
+- [人体检测视频](https://github.com/LZBUAV/K210_Python/blob/master/images/human.mov "人体检测视频")
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
-         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/human_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
          <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 
-<img src="https://github.com/LZBUAV/K210/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
-<img src="https://github.com/LZBUAV/K210/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
 </div>
 
-- [基于K210的视觉追踪无人机视频](https://github.com/LZBUAV/K210/blob/master/images/UAV.mp4 "基于K210的视觉追踪无人机视频")
+- [基于K210的视觉追踪无人机视频](https://github.com/LZBUAV/K210_Python/blob/master/images/UAV.mp4 "基于K210的视觉追踪无人机视频")
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
-         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/UAV_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
          <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
@@ -63,35 +63,35 @@ This repository is a collection of applications for the Kendryte K210 AI chip wh
 This K210 project is a supporting project of the Vision_MAV project. The Vision_MAV project aims to design and implement a vision-based micro drone system that relies on deep learning and image processing technology, which can realize autonomous visual navigation, target detection and Tracking, the project was founded and researched by the team of Associate Professor Li Dawei who works at the Institute of Unmanned System, Beihang University. And this project will be open source after the project has no confidentiality requirements. The K210 project is a supporting project of Vision_MAV, based on the edge AI chip [K210](https://canaan-creative.com/product/kendryteai "K210"), to achieve target detection and tracking, and to provide an optional vision solution for the Vision_MAV project. We used a MAXI DOCK K210 evaluation board produced by [Sipeed Technology Company](https://www.sipeed.com/ "矽速科技公司") to verify the AI ​​computing capabilities of the K210 chip. In this project, traditional machine vision methods are used to realize the largest color block recognition, QR code recognition, Apriltag code recognition, and circle recognition. Deep learning methods are used to realize face recognition, human body recognition, mask recognition, etc, and we also developed a [MAVlink](https://github.com/ArduPilot/mavlink "MAVlink") communication interface between K210 and [Ardupilot](https://github.com/ArduPilot/ardupilot "Ardupilot") flight control firmware, then The target position information calculated by the K210 vision module is sent to the flight controller in real time to control the movement of the drone.
 # Project files structure  
 This project is a collection of Kendryte K210 AI chip applications, which includes face detection, color detection, object detection and classification, QR code and Apriltag code detection, and the interface to communication with ArduPilot flight software. Finally, we can deploy these applications to drone to make drones more intelligent. These implemented applications are mainly divided into two categories, the first is machine vision applications, which are based on the openmv machine vision library; the second is deep learning applications, which are mainly based on Tensorflow and yolov2. See the user's manual for detailed functions. Some applications are shown below:
-- [Vedio of QR code detection](https://github.com/LZBUAV/K210/blob/master/images/QRcode.mov "Vedio of QR code detection"):
+- [Vedio of QR code detection](https://github.com/LZBUAV/K210_Python/blob/master/images/QRcode.mov "Vedio of QR code detection"):
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/QRcode_cover.jpg"
-         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/QRcode_cover.jpg"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
          <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
 
 - AprilTag code detection:
 <div align="center">
-<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag1.jpg" width = "300" height = "300" alt="K210" />
-<img src="https://github.com/LZBUAV/K210/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/Apriltag1.jpg" width = "300" height = "300" alt="K210" />
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/Apriltag2.jpg" width = "300" height = "300" alt="K210" />
 </div>
 
-- [Vedio of human body detection](https://github.com/LZBUAV/K210/blob/master/images/human.mov "Vedio fo human body detection")
+- [Vedio of human body detection](https://github.com/LZBUAV/K210_Python/blob/master/images/human.mov "Vedio fo human body detection")
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/human_cover.JPG"
-         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/human_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/human.mov" type="video/mov" width = "600" height = "480">
          <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 
-<img src="https://github.com/LZBUAV/K210/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
-<img src="https://github.com/LZBUAV/K210/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/human_1.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
+<img src="https://github.com/LZBUAV/K210_Python/raw/master/images/human_2.jpg" width = "300" height = "300" alt="K210" style="transform:rotate(90deg);"/>
 </div>
 
-- [Vedio of vision based UAV](https://github.com/LZBUAV/K210/blob/master/images/UAV.mp4 "Vedio of vision based UAV")
+- [Vedio of vision based UAV](https://github.com/LZBUAV/K210_Python/blob/master/images/UAV.mp4 "Vedio of vision based UAV")
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210/raw/master/images/UAV_cover.JPG"
-         <source id="mov" src="https://github.com/LZBUAV/K210/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/UAV_cover.JPG"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/UAV.mp4" type="video/mov" width = "600" height = "480">
          <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
