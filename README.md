@@ -24,8 +24,8 @@
 该项目是Kendryte K210 AI芯片应用程序的集合，其中包括面部检测，颜色检测，目标检测和分类，QR码和Apriltag码检测以及与ArduPilot飞行软件的通信。 最后，我们可以将这些应用程序部署到无人机终端，使无人机更加智能。所实现的应用主要分为两类，第一个是机器视觉应用，该类应用基于openmv机器视觉库；第二类是深度学习应用，该类主要基于Tensorflow和yolov2。详细功能参见用户手册。部分应用展示如下：
 - [QR码检测视频](https://github.com/LZBUAV/K210/blob/master/images/QRcode.mov "QR码检测视频")：
 <div align="center">
-<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/raw/master/images/QRcode_cover.jpg"
-         <source id="mov" src="https://github.com/LZBUAV/K210_Python/raw/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
+<video id="video" controls="" preload="none" poster="https://github.com/LZBUAV/K210_Python/blob/master/images/QRcode_cover.jpg"
+         <source id="mov" src="https://github.com/LZBUAV/K210_Python/blob/master/images/QRcode.mov" type="video/mov" width = "600" height = "480">
       <p>Your user agent does not support the HTML5 Video element.</p>
       </video>
 </div>
